@@ -4,14 +4,20 @@
     align-items: start;
     min-height: 74px;
     padding-top: 40px;
-    border-bottom:  1px solid #545454;
-    margin: auto; 
-  }
-  
-  @media screen and (max-width: 425px) {
-      .header {
-          width: 320px;
-          min-height: 56px;
-          padding-top: 28px;
-      }
-  }
+    border-bottom: 1px solid #545454;
+    margin: auto;
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        width: 320px;
+        min-height: 56px;
+        padding-top: 28px;
+    }
+}
+
+@media (max-width: 690px) {
+    .header {
+        min-height: 56px;
+    }
+}
