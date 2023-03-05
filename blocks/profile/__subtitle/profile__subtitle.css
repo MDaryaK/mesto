@@ -1,0 +1,14 @@
+.profile__subtitle {
+    grid-area: profile__subtitle;
+    color: white;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    max-width: 294px;
+    height: 39px;
+    padding-bottom: 16px;
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

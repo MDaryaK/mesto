@@ -1,0 +1,8 @@
+.elements__item {
+    position: relative;
+    border-radius: 10px;
+    background: #FFFFFF;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
