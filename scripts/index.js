@@ -10,11 +10,11 @@ let aboutInputNewValue = document.querySelector('.profile__title');
 const openPopup = function () {
   nameInput.value = nameInputNewValue.textContent;
   aboutInput.value = aboutInputNewValue.textContent;
-  popupElement.classList.add('popup__open');
+  popupElement.classList.add('popup_open');
 };
 
 const closePopup = function () {
-  popupElement.classList.remove('popup__open');
+  popupElement.classList.remove('popup_open');
 
 };
 
