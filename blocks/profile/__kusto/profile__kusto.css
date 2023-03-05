@@ -1,7 +1,6 @@
 .profile__kusto {
     grid-area: profile__kusto;
     color: white;
-    border: 1px solid;
     width: 24px;
     height: 24px;
     object-fit: contain;
