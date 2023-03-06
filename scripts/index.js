@@ -1,6 +1,6 @@
 const popupElement = document.querySelector('.popup');
-const popupOpenElement = document.querySelector('.profile__kusto');
-const popupCloseElement = popupElement.querySelector('.popup__close');
+const popupOpenButtonElement = document.querySelector('.profile__kusto');
+const popupCloseButtonElement = popupElement.querySelector('.popup__close');
 const formElement = document.querySelector('.form');
 let nameInput = formElement.querySelector('.form__box_name');
 let aboutInput = formElement.querySelector('.form__box_about');
@@ -10,11 +10,11 @@ let aboutInputNewValue = document.querySelector('.profile__title');
 const openPopup = function () {
   nameInput.value = nameInputNewValue.textContent;
   aboutInput.value = aboutInputNewValue.textContent;
-  popupElement.classList.add('popup_open');
+  popupElement.classList.add('popup_opened');
 };
 
 const closePopup = function () {
-  popupElement.classList.remove('popup_open');
+  popupElement.classList.remove('popup_opened');
 
 };
 
@@ -24,8 +24,8 @@ const closePopupByClickOverlay = function (event) {
   }
 }
 
-popupOpenElement.addEventListener('click', openPopup);
-popupCloseElement.addEventListener('click', closePopup);
+popupOpenButtonElement.addEventListener('click', openPopup);
+popupCloseButtonElement.addEventListener('click', closePopup);
 popupElement.addEventListener('click', closePopupByClickOverlay);
 
 const handleFormSubmit = function (evt) {

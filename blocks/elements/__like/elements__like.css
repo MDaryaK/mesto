@@ -7,7 +7,7 @@
     cursor: pointer;
     background-color: #FFFFFF;
     transition: .3s;
-    background-image: url(./images/Vector-hurt.svg);
+    background-image: url(../../../images/Vector-hurt.svg);
     background-size: 100%;
     background-position: center;
 }

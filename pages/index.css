@@ -28,3 +28,4 @@
 @import url(../../mesto//blocks/popup/popup.css);
 @import url(../../mesto/blocks/popup/__close/popup__close.css);
 @import url(../../mesto/blocks/popup/__container/popup__container.css);
+@import url(../../mesto/blocks/popup/_opened/popup_opened.css);

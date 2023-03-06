@@ -7,9 +7,25 @@
     padding-bottom: 60px;
 }
 
+@media (max-width: 1024px) { 
+    .footer {
+        max-width: 282px;
+        padding-left: 150px;
+    }
+      }
+
+@media (max-width: 680px) { 
+    .footer {
+        max-width: 282px;
+        padding-left: 200px;
+    }
+      }
+
+
 @media (max-width: 502px) {
     .footer {
         max-width: 282px;
+        padding-left: 200px;
     }
 }
 

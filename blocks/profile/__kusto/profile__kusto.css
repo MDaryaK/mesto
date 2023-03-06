@@ -1,17 +1,16 @@
 .profile__kusto {
-    grid-area: profile__kusto;
-    color: white;
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-    background-repeat: no-repeat;
-    background-image: url(../mesto/images/Edit\ Button.svg);
-    background-position: center;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-    border: 1px solid white;
-    transition: .3s;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/Edit\ Button.svg);
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border: #FFFFFF 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 @media screen and (max-width: 425px) {
