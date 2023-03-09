@@ -1,22 +1,16 @@
 .profile__button {
     margin: auto 0 auto auto;
-    width: 150px;
-    min-height: 50px;
     background: black;
     cursor: pointer;
-    transition: .3s;
-    object-fit: contain;
-    background-repeat: no-repeat;
+    transition: .5s;
     background-color: black;
-    background-position: center;
-    padding: 0;
     background-image: url(../mesto/images/Add\ Button.svg);
   }
-  
+
   .profile__button:hover {
       opacity: 0.6;
   }
-  
+
     @media screen and (max-width: 768px) {
       .profile__button {
         margin: auto;

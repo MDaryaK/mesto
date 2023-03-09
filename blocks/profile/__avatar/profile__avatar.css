@@ -1,8 +1,6 @@
 .profile__avatar {
     display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
+    position: inherit;
     width: 120px;
     height: 120px;
 }

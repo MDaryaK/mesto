@@ -1,12 +1,10 @@
 .profile__info {
-    display: grid;
+  display: grid;
   grid-template-columns: auto 24px;
   grid-template-areas: "profile__subtitle profile__kusto"
                        "profile__title .";
-  row-gap: 16px;
-  column-gap: 18px;
   align-items: center;
-  margin-left: 30px;
+  padding-left: 30px;
   max-width: 430px;
 }
 
@@ -20,12 +18,12 @@
     padding-left: 19px;
     row-gap: 6px;
     max-width: 200px;
-  } 
+  }
 }
 
 @media screen and (max-width: 768px) {
   .profile__info {
     max-width: 250px;
     text-align: center;
-  } 
+  }
 }
