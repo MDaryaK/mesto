@@ -7,9 +7,11 @@
   background: black;
   cursor: pointer;
   transition: .5s;
-  background-image: url(../../../images/Add\ Button.svg);
+  background-image: url(../../../images/Vector_2.svg);
   border: 2px solid #FFFFFF;
   border-radius: 2px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .profile__button:hover {
