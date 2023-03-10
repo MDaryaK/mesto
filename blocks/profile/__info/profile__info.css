@@ -1,8 +1,8 @@
 .profile__info {
   display: grid;
   grid-template-columns: auto 24px;
-  grid-template-areas: "profile__subtitle profile__kusto"
-                       "profile__title .";
+  grid-template-areas: "profile__title profile__small-button"
+                       "profile__subtitle .";
   align-items: center;
   padding-left: 30px;
   max-width: 430px;

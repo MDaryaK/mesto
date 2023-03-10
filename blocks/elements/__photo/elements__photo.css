@@ -1,4 +1,5 @@
 .elements__photo {
     transition: .3s;
     object-fit: cover;
+    border-radius: 12px 12px 0 0;
 }

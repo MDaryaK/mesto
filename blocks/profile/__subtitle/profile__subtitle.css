@@ -1,6 +1,16 @@
-.profile__subtitle {
-    grid-area: profile__subtitle;
+.profile__title {
+    grid-area: profile__title;
     color: white;
     font-weight: 500;
     font-size: 42px;
+    line-height: 17px;
+    margin: 16px;
+}
+
+@media screen and (max-width: 425px) {
+  .profile__title {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32.68px;
+  }
 }

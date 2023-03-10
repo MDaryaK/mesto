@@ -1,0 +1,25 @@
+.profile__small-button {
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/Edit\ Button.svg);
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border: #FFFFFF 1px solid;
+  display: flex;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 425px) {
+  .profile__small-button {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+
+  }
+}
+
+.profile__small-button:hover {
+  opacity: 0.6;
+}
