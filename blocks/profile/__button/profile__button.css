@@ -7,9 +7,11 @@
   background: black;
   cursor: pointer;
   transition: .5s;
-  background-image: url(../../../images/Add\ Button.svg);
+  background-image: url(../../../images/Vector_2.svg);
   border: 2px solid #FFFFFF;
   border-radius: 2px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .profile__button:hover {
@@ -18,8 +20,16 @@
 
 @media screen and (max-width: 768px) {
   .profile__button {
-    margin-bottom: 20px;
     width: 282px;
     height: 50px;
+    margin: 0 125px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .profile__button {
+    width: 282px;
+    height: 50px;
+    margin: 0 125px;
   }
 }

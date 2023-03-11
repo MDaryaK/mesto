@@ -17,13 +17,26 @@
     margin: 26px 0 33px;
     padding-left: 19px;
     row-gap: 6px;
-    max-width: 200px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .profile__info {
-    max-width: 250px;
-    text-align: center;
+    grid-template-areas: "profile__title profile__small-button"
+                       "profile__subtitle"
+                       ".";
+    grid-template-columns: auto 18px;
+    column-gap: 10px;
+    margin-left: 14px;
+    margin: 26px 0 33px;
+    padding-left: 19px;
+    row-gap: 6px;
+    align-items: baseline;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .profile__info {
+    margin: 0 160px 20px 94px;
   }
 }
