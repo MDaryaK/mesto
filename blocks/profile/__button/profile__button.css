@@ -11,6 +11,7 @@
   border-radius: 2px;
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: auto;
 }
 
 .profile__button:hover {

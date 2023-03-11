@@ -7,7 +7,11 @@
   background-position: 50%;
   border: #FFFFFF 1px solid;
   display: flex;
-  margin-left: 25px;
+  margin-left: 18px;
+}
+
+.profile__small-button:hover {
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 425px) {
@@ -17,6 +21,9 @@
   }
 }
 
-.profile__small-button:hover {
-  opacity: 0.6;
+
+@media screen and (max-width: 980px) {
+  .profile__small-button {
+    
+  }
 }
