@@ -7,13 +7,15 @@ const jobInput = form.querySelector('.form__box');
 const nameNew = document.querySelector('.profile__title');
 const jobNew = document.querySelector('.profile__subtitle');
 
-openPopup.addEventListener('click', function () {
+ function openPopupButton() {
   popup.classList.add('popup_opened');
-});
+};
+openPopup.addEventListener('click', openPopupButton);
 
-closePopup.addEventListener('click', function closePopupButton() {
+ function closePopupButton() {
   popup.classList.remove('popup_opened');
-});
+};
+closePopup.addEventListener('click', closePopupButton);
 
 function handleFormSubmit(evt) {
   evt.preventDefault();
