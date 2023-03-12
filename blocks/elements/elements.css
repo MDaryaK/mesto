@@ -23,5 +23,6 @@
 @media (max-width: 502px) {
   .elements {
     margin: 0 auto 48px;
+    padding: 30px 0;
   }
 }

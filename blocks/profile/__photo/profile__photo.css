@@ -7,3 +7,11 @@
   border-radius: 100%;
   object-fit: cover;
 }
+
+
+@media (max-width: 425px) {
+  .profile__photo  {
+    padding: 58px 84px 0;
+    background-image: none;
+  }
+}

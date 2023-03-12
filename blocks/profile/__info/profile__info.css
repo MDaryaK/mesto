@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: auto 24px;
   grid-template-areas: "profile__title profile__small-button"
-                       "profile__subtitle .";
+    "profile__subtitle .";
   align-items: center;
   padding-left: 30px;
   max-width: 430px;
@@ -21,12 +21,26 @@
 @media screen and (max-width: 768px) {
   .profile__info {
     grid-template-areas: "profile__title profile__small-button"
-                       "profile__subtitle"
-                       ".";
+      "profile__subtitle"
+      ".";
     grid-template-columns: auto 18px;
     column-gap: 10px;
     padding-left: 19px;
     row-gap: 6px;
     align-items: baseline;
   }
+}
+
+@media (max-width: 425px) {
+  .profile__info {
+    grid-template-areas: "profile__title profile__small-button"
+    "profile__subtitle"
+    ".";
+  grid-template-columns: auto 18px;
+  column-gap: 9px;
+  padding-left: 49px;
+  row-gap: 0;
+  align-items: baseline;
+  max-height: 110px;
+}
 }

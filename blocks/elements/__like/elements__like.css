@@ -1,11 +1,12 @@
 .elements__like {
     width: 22px;
     height: 19px;
-    border: none;
+    border: 0;
     background-color: #FFFFFF;
     transition: .5s;
     background-image: url(../../../images/Vector-hurt.svg);
     background-size: 100%;
+    cursor: pointer;
  }
 
 .elements__like:hover {

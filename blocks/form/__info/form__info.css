@@ -1,9 +1,15 @@
 .form__info {
-    font-family: inherit;
-    color: #000000;
-    margin: 0;
-    padding: 0;
-    border: none;
-    display: flex;
-    flex-direction: column;
+  row-gap: 28px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 425px) {
+  .form__info {
+    padding: 0 0 34px 25px;;
   }
+}

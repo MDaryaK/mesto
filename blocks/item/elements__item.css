@@ -1,6 +1,9 @@
 .elements__item {
-    position: relative;
-    border-radius: 10px;
-    background: #FFFFFF;
-    max-height: 362px;
+  position: relative;
+  border-radius: 10px;
+  background: #FFFFFF;
+  max-height: 362px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

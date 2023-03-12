@@ -31,3 +31,9 @@
     height: 50px;
   }
 }
+
+@media (max-width: 425px) {
+  .profile__button{
+  padding-left: 49px;
+}
+}

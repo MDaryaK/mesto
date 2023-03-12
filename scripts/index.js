@@ -11,6 +11,8 @@ const jobNew = document.querySelector('.profile__subtitle');
 // Вызываем функцию открытия кнопки
  function openPopupButton() {
   popup.classList.add('popup_opened');
+  nameInput.textContent = nameNew.value;
+  jobInput.textContent = jobNew.value;
 };
 openPopup.addEventListener('click', openPopupButton);
 
