@@ -1,5 +1,5 @@
 //Сщздаем переменные
-const openPopup = document.querySelector('.profile__small-button');
+const openPopup = document.querySelector('.profile__add-button');
 const closePopup = document.querySelector('.popup__close');
 const popup = document.querySelector('.popup');
 const form = document.querySelector('.form');
@@ -22,11 +22,11 @@ function closePopupButton() {
 };
 closePopup.addEventListener('click', closePopupButton);
 
-// Вызываем функцию кнопки "Сохранить" и внесение новых жанных
+// Вызываем функцию кнопки "Сохранить" и внесение новых данных
 function handleFormSubmit(evt) {
   evt.preventDefault();
   nameNew.textContent = nameInput.value;
   jobNew.textContent = jobInput.value;
-  popup.classList.remove('popup_opened');
+  closePopupButton();
 }
 form.addEventListener('submit', handleFormSubmit);

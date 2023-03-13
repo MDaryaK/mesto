@@ -1,18 +1,13 @@
 .form__box {
-border: none;
-border-bottom: 1px solid #545454;
-padding-bottom: 10px;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.21;
-margin-bottom: 30px;
-text-overflow: ellipsis;
-max-width: 430px;
-overflow: hidden;
-white-space: nowrap;
- }
+  border: none;
+  border-bottom: 1px solid  #000000;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+}
 
- @media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .form__box {
     padding: 0;
   }
