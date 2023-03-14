@@ -3,3 +3,11 @@
   border-bottom: 1px solid #545454;
   padding-bottom: 40px;
 }
+
+@media screen and (max-width: 425px) {
+  .form__text  {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+  }
+}

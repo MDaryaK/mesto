@@ -6,6 +6,7 @@
     background-image: url(../../../images/Vector-hurt.svg);
     background-size: 100%;
     cursor: pointer;
+    padding: 9px;
  }
 
 .elements__like:hover {
